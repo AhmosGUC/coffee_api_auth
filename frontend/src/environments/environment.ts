@@ -9,6 +9,6 @@ export const environment = {
     url: 'ahmos.eu', // the auth0 domain prefix
     audience: 'testApp', // the audience set for the auth0 app
     clientId: 'ux1hRV7PBltK5o5Ew5foZSoRzIDEcFB7', // the client id generated for the auth0 app
-    callbackURL: 'http://localhost:4200', // the base url of the running ionic application. 
+    callbackURL: 'http://localhost:8100', // the base url of the running ionic application. 
   }
 };
