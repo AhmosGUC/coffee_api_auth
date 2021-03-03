@@ -167,7 +167,7 @@ def handle_bad_request(e):
     return jsonify({
         "success": False,
         "error": e.status_code,
-        "message": e.error
+        "message": e.error['code'] + " > "+e.error['description']
     }), e.status_code
 
 # @app.errorhandler(400)
